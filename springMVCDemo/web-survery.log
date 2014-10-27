@@ -1,0 +1,633 @@
+[INFO][2014-10-27 11:39:22,069][org.springframework.context.support.ClassPathXmlApplicationContext]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@16a9d42: startup date [Mon Oct 27 11:39:22 CST 2014]; root of context hierarchy
+[INFO][2014-10-27 11:39:22,294][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO][2014-10-27 11:39:22,843][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-hibernate.xml]
+[INFO][2014-10-27 11:39:23,584][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [config.properties]
+[ERROR][2014-10-27 11:39:24,053][com.alibaba.druid.pool.DruidAbstractDataSource]maxIdle is deprecated
+[INFO][2014-10-27 11:39:24,199][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2014-10-27 11:39:25,353][org.hibernate.annotations.common.Version]HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+[INFO][2014-10-27 11:39:25,392][org.hibernate.Version]HHH000412: Hibernate Core {4.3.4.Final}
+[INFO][2014-10-27 11:39:25,394][org.hibernate.cfg.Environment]HHH000206: hibernate.properties not found
+[INFO][2014-10-27 11:39:25,396][org.hibernate.cfg.Environment]HHH000021: Bytecode provider name : javassist
+[ERROR][2014-10-27 11:39:25,884][com.alibaba.druid.pool.DruidDataSource]create connection error
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Unknown database 'iptest'
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2941)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:868)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3340)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1238)
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:2743)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:1553)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:266)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:148)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1360)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1414)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1649)
+[ERROR][2014-10-27 11:39:25,897][com.alibaba.druid.pool.DruidDataSource]create connection error
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Unknown database 'iptest'
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2941)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:868)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3340)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1238)
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:2743)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:1553)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:266)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:148)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1360)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1414)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1649)
+[ERROR][2014-10-27 11:39:25,902][com.alibaba.druid.pool.DruidDataSource]create connection error
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Unknown database 'iptest'
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2941)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:868)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3340)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1238)
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:2743)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:1553)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:266)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:148)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1360)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1414)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1649)
+[ERROR][2014-10-27 11:39:25,907][com.alibaba.druid.pool.DruidDataSource]create connection error
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Unknown database 'iptest'
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2941)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:868)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3340)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1238)
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:2743)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:1553)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:266)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:148)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1360)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1414)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1649)
+[ERROR][2014-10-27 11:39:25,913][com.alibaba.druid.pool.DruidDataSource]create connection error
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Unknown database 'iptest'
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2941)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:868)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3340)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1238)
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:2743)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:1553)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:266)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:148)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1360)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1414)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1649)
+[ERROR][2014-10-27 11:39:25,917][com.alibaba.druid.pool.DruidDataSource]create connection error
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Unknown database 'iptest'
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2941)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:868)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3340)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1238)
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:2743)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:1553)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:266)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:148)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1360)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1414)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1649)
+[ERROR][2014-10-27 11:39:25,923][com.alibaba.druid.pool.DruidDataSource]create connection error
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Unknown database 'iptest'
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2941)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:868)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3340)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1238)
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:2743)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:1553)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:266)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:148)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1360)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1414)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1649)
+[ERROR][2014-10-27 11:39:25,928][com.alibaba.druid.pool.DruidDataSource]create connection error
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Unknown database 'iptest'
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2941)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:868)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3340)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1238)
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:2743)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:1553)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:266)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:148)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1360)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1414)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1649)
+[ERROR][2014-10-27 11:39:25,933][com.alibaba.druid.pool.DruidDataSource]create connection error
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Unknown database 'iptest'
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2941)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:868)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3340)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1238)
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:2743)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:1553)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:266)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:148)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1360)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1414)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1649)
+[ERROR][2014-10-27 11:39:25,938][com.alibaba.druid.pool.DruidDataSource]create connection error
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Unknown database 'iptest'
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2941)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:868)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3340)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1238)
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:2743)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:1553)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:266)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:148)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1360)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1414)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1649)
+[ERROR][2014-10-27 11:39:25,942][com.alibaba.druid.pool.DruidDataSource]create connection error
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Unknown database 'iptest'
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2941)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:868)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3340)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1238)
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:2743)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:1553)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:266)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:148)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1360)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1414)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1649)
+[ERROR][2014-10-27 11:39:25,947][com.alibaba.druid.pool.DruidDataSource]create connection error
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Unknown database 'iptest'
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2941)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:868)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3340)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1238)
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:2743)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:1553)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:266)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:148)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1360)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1414)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1649)
+[ERROR][2014-10-27 11:39:25,952][com.alibaba.druid.pool.DruidDataSource]create connection error
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Unknown database 'iptest'
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2941)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:868)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3340)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1238)
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:2743)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:1553)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:266)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:148)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1360)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1414)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1649)
+[ERROR][2014-10-27 11:39:25,956][com.alibaba.druid.pool.DruidDataSource]create connection error
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Unknown database 'iptest'
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2941)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:868)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3340)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1238)
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:2743)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:1553)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:266)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:148)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1360)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1414)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1649)
+[ERROR][2014-10-27 11:39:25,961][com.alibaba.druid.pool.DruidDataSource]create connection error
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Unknown database 'iptest'
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2941)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:868)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3340)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1238)
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:2743)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:1553)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:266)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:148)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1360)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1414)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1649)
+[ERROR][2014-10-27 11:39:25,966][com.alibaba.druid.pool.DruidDataSource]create connection error
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Unknown database 'iptest'
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2941)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:868)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3340)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1238)
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:2743)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:1553)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:266)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:148)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1360)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1414)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1649)
+[ERROR][2014-10-27 11:39:25,970][com.alibaba.druid.pool.DruidDataSource]create connection error
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Unknown database 'iptest'
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2941)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:868)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3340)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1238)
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:2743)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:1553)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:266)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:148)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1360)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1414)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1649)
+[ERROR][2014-10-27 11:39:25,975][com.alibaba.druid.pool.DruidDataSource]create connection error
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Unknown database 'iptest'
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2941)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:868)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3340)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1238)
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:2743)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:1553)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:266)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:148)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1360)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1414)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1649)
+[ERROR][2014-10-27 11:39:25,979][com.alibaba.druid.pool.DruidDataSource]create connection error
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Unknown database 'iptest'
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2941)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:868)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3340)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1238)
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:2743)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:1553)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:266)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:148)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1360)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1414)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1649)
+[ERROR][2014-10-27 11:39:25,984][com.alibaba.druid.pool.DruidDataSource]create connection error
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Unknown database 'iptest'
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2941)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:868)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3340)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1238)
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:2743)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:1553)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:266)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:148)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1360)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1414)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1649)
+[ERROR][2014-10-27 11:39:25,989][com.alibaba.druid.pool.DruidDataSource]create connection error
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Unknown database 'iptest'
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2941)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:868)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3340)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1238)
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:2743)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:1553)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:266)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:148)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1360)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1414)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1649)
+[ERROR][2014-10-27 11:39:25,993][com.alibaba.druid.pool.DruidDataSource]create connection error
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Unknown database 'iptest'
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2941)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:868)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3340)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1238)
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:2743)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:1553)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:266)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:148)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1360)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1414)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1649)
+[ERROR][2014-10-27 11:39:25,999][com.alibaba.druid.pool.DruidDataSource]create connection error
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Unknown database 'iptest'
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2941)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:868)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3340)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1238)
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:2743)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:1553)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:266)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:148)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1360)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1414)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1649)
+[ERROR][2014-10-27 11:39:26,007][com.alibaba.druid.pool.DruidDataSource]create connection error
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Unknown database 'iptest'
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2941)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:868)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3340)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1238)
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:2743)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:1553)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:266)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:148)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1360)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1414)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1649)
+[ERROR][2014-10-27 11:39:26,018][com.alibaba.druid.pool.DruidDataSource]create connection error
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Unknown database 'iptest'
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2941)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:868)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3340)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1238)
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:2743)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:1553)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:266)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:148)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1360)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1414)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1649)
+[ERROR][2014-10-27 11:39:26,031][com.alibaba.druid.pool.DruidDataSource]create connection error
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Unknown database 'iptest'
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2941)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:868)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3340)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1238)
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:2743)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:1553)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:266)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:148)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1360)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1414)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1649)
+[ERROR][2014-10-27 11:39:26,041][com.alibaba.druid.pool.DruidDataSource]create connection error
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Unknown database 'iptest'
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2941)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:868)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3340)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1238)
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:2743)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:1553)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:266)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:148)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1360)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1414)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1649)
+[ERROR][2014-10-27 11:39:26,055][com.alibaba.druid.pool.DruidDataSource]create connection error
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Unknown database 'iptest'
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2941)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:868)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3340)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1238)
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:2743)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:1553)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:266)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:148)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1360)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1414)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1649)
+[ERROR][2014-10-27 11:39:26,065][com.alibaba.druid.pool.DruidDataSource]create connection error
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Unknown database 'iptest'
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2941)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:868)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3340)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1238)
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:2743)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:1553)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:266)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:148)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1360)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1414)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1649)
+[ERROR][2014-10-27 11:39:26,076][com.alibaba.druid.pool.DruidDataSource]create connection error
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Unknown database 'iptest'
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2941)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:868)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3340)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1238)
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:2743)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:1553)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:266)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:148)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1360)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1414)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1649)
+[ERROR][2014-10-27 11:39:26,084][com.alibaba.druid.pool.DruidDataSource]create connection error
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Unknown database 'iptest'
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2941)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:868)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3340)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1238)
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:2743)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:1553)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:266)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:148)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1360)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1414)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1649)
+[ERROR][2014-10-27 11:39:56,091][com.alibaba.druid.pool.DruidDataSource]create connection error
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Unknown database 'iptest'
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2941)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:868)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3340)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1238)
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:2743)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:1553)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:266)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:148)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1360)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1414)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1649)
+[WARN][2014-10-27 11:40:25,839][org.hibernate.engine.jdbc.internal.JdbcServicesImpl]HHH000342: Could not obtain connection to query metadata : wait millis 60000, active 0
+[INFO][2014-10-27 11:40:25,882][org.hibernate.dialect.Dialect]HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+[INFO][2014-10-27 11:40:25,908][org.hibernate.engine.jdbc.internal.LobCreatorBuilder]HHH000422: Disabling contextual LOB creation as connection was null
+[INFO][2014-10-27 11:40:26,149][org.hibernate.engine.transaction.internal.TransactionFactoryInitiator]HHH000399: Using default transaction strategy (direct JDBC transactions)
+[INFO][2014-10-27 11:40:26,181][org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory]HHH000397: Using ASTQueryTranslatorFactory
+[INFO][2014-10-27 11:40:26,884][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000228: Running hbm2ddl schema update
+[INFO][2014-10-27 11:40:26,884][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000102: Fetching database metadata
+[ERROR][2014-10-27 11:40:26,890][com.alibaba.druid.pool.DruidDataSource]create connection error
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Unknown database 'iptest'
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2941)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:868)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3340)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1238)
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:2743)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:1553)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:266)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:148)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1360)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1414)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1649)
+[INFO][2014-10-27 11:41:44,453][org.springframework.context.support.ClassPathXmlApplicationContext]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@16a9d42: startup date [Mon Oct 27 11:41:44 CST 2014]; root of context hierarchy
+[INFO][2014-10-27 11:41:44,485][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO][2014-10-27 11:41:44,632][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-hibernate.xml]
+[INFO][2014-10-27 11:41:44,770][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [config.properties]
+[ERROR][2014-10-27 11:41:44,866][com.alibaba.druid.pool.DruidAbstractDataSource]maxIdle is deprecated
+[INFO][2014-10-27 11:41:44,941][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2014-10-27 11:41:45,185][org.hibernate.annotations.common.Version]HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+[INFO][2014-10-27 11:41:45,189][org.hibernate.Version]HHH000412: Hibernate Core {4.3.4.Final}
+[INFO][2014-10-27 11:41:45,191][org.hibernate.cfg.Environment]HHH000206: hibernate.properties not found
+[INFO][2014-10-27 11:41:45,192][org.hibernate.cfg.Environment]HHH000021: Bytecode provider name : javassist
+[INFO][2014-10-27 11:41:45,421][org.hibernate.dialect.Dialect]HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+[INFO][2014-10-27 11:41:45,429][org.hibernate.engine.jdbc.internal.LobCreatorBuilder]HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+[INFO][2014-10-27 11:41:45,513][org.hibernate.engine.transaction.internal.TransactionFactoryInitiator]HHH000399: Using default transaction strategy (direct JDBC transactions)
+[INFO][2014-10-27 11:41:45,517][org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory]HHH000397: Using ASTQueryTranslatorFactory
+[INFO][2014-10-27 11:41:45,729][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000228: Running hbm2ddl schema update
+[INFO][2014-10-27 11:41:45,729][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000102: Fetching database metadata
+[INFO][2014-10-27 11:41:45,732][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000396: Updating schema
+[INFO][2014-10-27 11:41:45,746][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000261: Table found: cdn_iptest.tabuser
+[INFO][2014-10-27 11:41:45,746][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000037: Columns: [id, textkk, name, createdate, password]
+[INFO][2014-10-27 11:41:45,746][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000108: Foreign keys: []
+[INFO][2014-10-27 11:41:45,747][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000126: Indexes: [primary]
+[INFO][2014-10-27 11:41:45,747][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000232: Schema update complete
+[INFO][2014-10-27 11:41:45,849][org.springframework.orm.hibernate4.HibernateTransactionManager]Using DataSource [{
+	CreateTime:"2014-10-27 11:41:44",
+	ActiveCount:0,
+	PoolingCount:1,
+	CreateCount:1,
+	DestroyCount:0,
+	CloseCount:2,
+	ConnectCount:2,
+	Connections:[
+		{ID:22129680, ConnectTime:"2014-10-27 11:41:45", UseCount:2, LastActiveTime:"2014-10-27 11:41:45"}
+	]
+}
+
+[
+	{
+	ID:22129680, 
+	poolStatements:[
+		]
+	}
+]] of Hibernate SessionFactory for HibernateTransactionManager
+[INFO][2014-10-27 11:41:46,756][com.etmobile.test.Springtest]dddddddddddd
+[WARN][2014-10-27 11:41:47,319][org.hibernate.engine.jdbc.spi.SqlExceptionHelper]SQL Error: 1364, SQLState: HY000
+[ERROR][2014-10-27 11:41:47,320][org.hibernate.engine.jdbc.spi.SqlExceptionHelper]Field 'Id' doesn't have a default value
+[INFO][2014-10-27 11:44:38,299][org.springframework.context.support.ClassPathXmlApplicationContext]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7a84e4: startup date [Mon Oct 27 11:44:38 CST 2014]; root of context hierarchy
+[INFO][2014-10-27 11:44:38,331][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO][2014-10-27 11:44:38,474][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-hibernate.xml]
+[INFO][2014-10-27 11:44:38,613][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [config.properties]
+[ERROR][2014-10-27 11:44:38,709][com.alibaba.druid.pool.DruidAbstractDataSource]maxIdle is deprecated
+[INFO][2014-10-27 11:44:38,785][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2014-10-27 11:44:39,030][org.hibernate.annotations.common.Version]HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+[INFO][2014-10-27 11:44:39,034][org.hibernate.Version]HHH000412: Hibernate Core {4.3.4.Final}
+[INFO][2014-10-27 11:44:39,036][org.hibernate.cfg.Environment]HHH000206: hibernate.properties not found
+[INFO][2014-10-27 11:44:39,037][org.hibernate.cfg.Environment]HHH000021: Bytecode provider name : javassist
+[INFO][2014-10-27 11:44:39,234][org.hibernate.dialect.Dialect]HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+[INFO][2014-10-27 11:44:39,242][org.hibernate.engine.jdbc.internal.LobCreatorBuilder]HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+[INFO][2014-10-27 11:44:39,326][org.hibernate.engine.transaction.internal.TransactionFactoryInitiator]HHH000399: Using default transaction strategy (direct JDBC transactions)
+[INFO][2014-10-27 11:44:39,330][org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory]HHH000397: Using ASTQueryTranslatorFactory
+[INFO][2014-10-27 11:44:39,543][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000228: Running hbm2ddl schema update
+[INFO][2014-10-27 11:44:39,544][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000102: Fetching database metadata
+[INFO][2014-10-27 11:44:39,546][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000396: Updating schema
+[INFO][2014-10-27 11:44:39,560][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000261: Table found: cdn_iptest.tabuser
+[INFO][2014-10-27 11:44:39,560][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000037: Columns: [id, textkk, name, createdate, password]
+[INFO][2014-10-27 11:44:39,560][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000108: Foreign keys: []
+[INFO][2014-10-27 11:44:39,560][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000126: Indexes: [primary]
+[INFO][2014-10-27 11:44:39,561][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000232: Schema update complete
+[INFO][2014-10-27 11:44:39,604][org.springframework.orm.hibernate4.HibernateTransactionManager]Using DataSource [{
+	CreateTime:"2014-10-27 11:44:38",
+	ActiveCount:0,
+	PoolingCount:1,
+	CreateCount:1,
+	DestroyCount:0,
+	CloseCount:2,
+	ConnectCount:2,
+	Connections:[
+		{ID:22129680, ConnectTime:"2014-10-27 11:44:39", UseCount:2, LastActiveTime:"2014-10-27 11:44:39"}
+	]
+}
+
+[
+	{
+	ID:22129680, 
+	poolStatements:[
+		]
+	}
+]] of Hibernate SessionFactory for HibernateTransactionManager
+[INFO][2014-10-27 11:44:39,868][com.etmobile.test.Springtest]dddddddddddd
